@@ -9,7 +9,7 @@ class Test(Dashboard):
     __grid_width__ = 1778.296875
     __grid_height__ = 379.171875
     __grid_orientation__ = "HORIZONTAL"
-    __active_group__ = 1
+    __active_group__ = 2
 
     metrics_kQwa4HqAkZ = PanelComponent(component_type="metrics",
                           name="DemoMetric",
