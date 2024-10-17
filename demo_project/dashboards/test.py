@@ -11,90 +11,27 @@ class Test(Dashboard):
     __grid_orientation__ = "VERTICAL"
     __active_group__ = 1
 
-    component_1 = PanelComponent(component_type="metrics",
-                                 name="DemoMetrics",
-                                 query="Select(func.count(EmpDept.emp_no).label('Count Employees'))",
-                                 data_objects={"EmpDept": "efficieno.experiment.demo_ontology_layer"},
-                                 header="Demo Metric Header",
-                                 description="Demo Metric Description",
-                                 columns=[])
-
-    component_2 = PanelComponent(component_type="tables",
-                                 name="DemoTable",
-                                 query="Select(EmpDept.emp_no, EmpDept.emp_name)",
-                                 data_objects={"EmpDept": "efficieno.experiment.demo_ontology_layer"},
-                                 header="Demo Table Header",
-                                 description="Demo Table Description",
-                                 actions=[],
-                                 inline_actions=None,
-                                 columns=[
-                                     {
-                                         "accessorKey": "emp_no",
-                                         "autoincrement": None,
-                                         "dataObject": None,
-                                         "dataType": "String",
-                                         "databaseTableName": None,
-                                         "databaseTableSchema": None,
-                                         "dbDataType": "String",
-                                         "displayName": "Emp No",
-                                         "function": "emp_no",
-                                         "name": "emp_no",
-                                         "nullable": None,
-                                         "primaryKey": True,
-                                         "unique": None,
-                                         "visible": False
-                                     },
-                                     {
-                                         "accessorKey": "emp_name",
-                                         "autoincrement": None,
-                                         "dataObject": None,
-                                         "dataType": "String",
-                                         "databaseTableName": None,
-                                         "databaseTableSchema": None,
-                                         "dbDataType": "String",
-                                         "displayName": "Emp Name",
-                                         "function": "emp_name",
-                                         "name": "emp_name",
-                                         "nullable": None,
-                                         "primaryKey": True,
-                                         "unique": None,
-                                         "visible": False
-                                     }
-                                 ])
-
-    component_3 = PanelComponent(component_type="charts",
-                                 name="DemoChart",
-                                 query="Select(EmpDept.emp_no, EmpDept.emp_name)",
-                                 data_objects={"EmpDept": "efficieno.experiment.demo_ontology_layer"},
-                                 header="Demo Charts Header",
-                                 description="Demo Charts Description",
-                                 actions=[],
-                                 inline_actions=None,
-                                 columns=[],
-                                 chart_options={
-                                     "series": [
-                                         {
-                                             "label": {
-                                                 "margin": 8,
-                                                 "show": True
-                                             },
-                                             "name": "Items",
-                                             "type": "bar"
-                                         }
-                                     ],
-                                     "title": [
-                                         {
-                                             "show": True,
-                                             "subtext": "Open orders",
-                                             "text": "Open Jobs by Status"
-                                         }
-                                     ],
-                                     "tooltip": {
-                                         "show": True
-                                     },
-                                     "xAxis": {
-                                         "type": "category"
-                                     },
-                                     "yAxis": {
-                                     }
-                                 })
+    panel_IP1_fhJ_R = PanelComponent(component_type="metrics",
+                          name="DemoMetrics",
+                          query="Select(func.count(EmpDept.emp_no).label('Count Employees'))",
+                          data_objects={'EmpDept': 'efficieno.experiment.demo_ontology_layer'},
+                          header="Demo Metric Header",
+                          description="Demo Metric Description",
+                          columns=[],
+                          content_component="default")
+    panel__NXT8QrunU = PanelComponent(component_type="metrics",
+                          name="DemoMetrics",
+                          query="Select(func.count(EmpDept.emp_no).label('Count Employees'))",
+                          data_objects={'EmpDept': 'efficieno.experiment.demo_ontology_layer'},
+                          header="Demo Metric Header",
+                          description="Demo Metric Description",
+                          columns=[],
+                          content_component="default")
+    panel_SrQ6YWB5ry = PanelComponent(component_type="metrics",
+                          name="DemoMetrics",
+                          query="Select(func.count(EmpDept.emp_no).label('Count Employees'))",
+                          data_objects={'EmpDept': 'efficieno.experiment.demo_ontology_layer'},
+                          header="Demo Metric Header",
+                          description="Demo Metric Description",
+                          columns=[],
+                          content_component="default")
