@@ -5,9 +5,9 @@ class Test(Dashboard):
     __dashboard_name__ = "test"
     __dashboard_description__ = "test"
 
-    __grid_root_element__ = {'type': 'branch', 'data': [{'type': 'branch', 'data': [{'type': 'leaf', 'data': {'views': ['metrics_kQwa4HqAkZ'], 'activeView': 'metrics_kQwa4HqAkZ', 'id': '1'}, 'size': 889}, {'type': 'leaf', 'data': {'views': ['tables_dFlPszmSDg'], 'activeView': 'tables_dFlPszmSDg', 'id': '2'}, 'size': 889.296875}], 'size': 286}, {'type': 'leaf', 'data': {'views': ['metrics_1mGjpfjz_n'], 'activeView': 'metrics_1mGjpfjz_n', 'id': '3'}, 'size': 286.328125}], 'size': 1778.296875}
-    __grid_width__ = 1778.296875
-    __grid_height__ = 572.328125
+    __grid_root_element__ = {'type': 'branch', 'data': [{'type': 'branch', 'data': [{'type': 'leaf', 'data': {'views': ['metrics_kQwa4HqAkZ'], 'activeView': 'metrics_kQwa4HqAkZ', 'id': '1'}, 'size': 894}, {'type': 'leaf', 'data': {'views': ['tables_dFlPszmSDg'], 'activeView': 'tables_dFlPszmSDg', 'id': '2'}, 'size': 893.953125}], 'size': 388}, {'type': 'leaf', 'data': {'views': ['metrics_1mGjpfjz_n'], 'activeView': 'metrics_1mGjpfjz_n', 'id': '3'}, 'size': 388.015625}], 'size': 1787.953125}
+    __grid_width__ = 1787.953125
+    __grid_height__ = 776.015625
     __grid_orientation__ = "VERTICAL"
     __active_group__ = 3
 
