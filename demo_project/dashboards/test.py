@@ -5,11 +5,11 @@ class Test(Dashboard):
     __dashboard_name__ = "test"
     __dashboard_description__ = "test"
 
-    __grid_root_element__ = {'type': 'branch', 'data': [{'type': 'leaf', 'data': {'views': ['metrics_kQwa4HqAkZ'], 'activeView': 'metrics_kQwa4HqAkZ', 'id': '1'}, 'size': 210}, {'type': 'leaf', 'data': {'views': ['panel_SrQ6YWB5ry', 'tables_dFlPszmSDg'], 'activeView': 'tables_dFlPszmSDg', 'id': '3'}, 'size': 210.4375}], 'size': 1778.296875}
+    __grid_root_element__ = {'type': 'branch', 'data': [{'type': 'branch', 'data': [{'type': 'leaf', 'data': {'views': ['metrics_kQwa4HqAkZ'], 'activeView': 'metrics_kQwa4HqAkZ', 'id': '1'}, 'size': 889}, {'type': 'leaf', 'data': {'views': ['tables_dFlPszmSDg'], 'activeView': 'tables_dFlPszmSDg', 'id': '2'}, 'size': 889.296875}], 'size': 210}, {'type': 'leaf', 'data': {'views': ['panel_SrQ6YWB5ry'], 'activeView': 'panel_SrQ6YWB5ry', 'id': '3'}, 'size': 210.4375}], 'size': 1778.296875}
     __grid_width__ = 1778.296875
     __grid_height__ = 420.4375
     __grid_orientation__ = "VERTICAL"
-    __active_group__ = 3
+    __active_group__ = 2
 
     metrics_kQwa4HqAkZ = PanelComponent(component_type="metrics",
                           name="DemoMetric",
